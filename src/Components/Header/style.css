@@ -1,0 +1,13 @@
+.nav-item ul {
+    display: none;
+    list-style: none;
+    width:100px;
+}
+.nav-item:hover ul{
+    display: inline;
+    width: 120px;
+    position: absolute;
+    left: 5px;
+    padding-top: 5px;
+}
+

@@ -1,0 +1,28 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+.figure{
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+height: 100px;
+padding: 10px;
+/* display: flex; */
+}
+.image{
+    height: 80px;
+}
+.detail{
+    position:relative;
+    left: 100px;
+    bottom: 65px;
+
+}
+.name{
+    display: flex;
+    gap: 3px;
+    margin: 5px;
+    font-weight: bold;
+    color: blue;
+    
+}
