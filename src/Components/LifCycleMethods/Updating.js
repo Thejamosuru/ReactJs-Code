@@ -33,7 +33,9 @@ export default class Updating extends Component {
 
     componentDidUpdate(prevsProps, prevsState){
       if(prevsState.pagenumber !== this.state.pagenumber)
-      this.handleData();
+        
+        this.handleData();
+      
     }
 
   render() {

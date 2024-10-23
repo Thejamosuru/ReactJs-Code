@@ -19,6 +19,8 @@ import { Products } from '../Hooks/UsePareme/Products'
 import { Product } from '../Hooks/UsePareme/Product'
 // import { MyCart } from '../Hooks/UsePareme/MyCart'
 import { Cart } from '../Hooks/UsePareme/Cart'
+import UseCallBack from '../Hooks/UseCallBack'
+import UseMemo from '../Hooks/UseMemo'
 
 function Routing() {
   return (
@@ -39,6 +41,8 @@ function Routing() {
         <Route path="/useref" element={<UseRef/>}/>
         <Route path="/usereducer1" element={<UseReducerHook/>} />
         <Route path="/usereducer2" element={<UseReducer2/>} />
+        <Route path="/usecallback" element={<UseCallBack/>} />
+        <Route path="/usememo" element={<UseMemo/>} />
         <Route path='/useparame' element={<Products/>}/>
         <Route path='/product/:id' element={<Product/>}/>
         <Route path='/store' element={<Cart/>}/>

@@ -71,6 +71,12 @@ export default function Header() {
                   <li class="bg-dark">
                     <Link class="nav-link text-light" to="/useparame">UseParame</Link>
                   </li>
+                  <li class="bg-dark">
+                    <Link class="nav-link text-light" to="/usecallback">UseCallBack</Link>
+                  </li>
+                  <li class="bg-dark">
+                    <Link class="nav-link text-light" to="/usememo">UseMemo</Link>
+                  </li>
                 </ul>
               </li>
               <li class="nav-item">

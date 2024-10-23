@@ -40,11 +40,12 @@ function App() {
       {/* <Props continue = {data} Extension = {Courses}/>  */}
        {/* <Counter/> */}
       {/* <ListandKeys/> */}
-      <Header/>
+      <Header/> 
        <Routing/>
        {/* <PropsInfo strring={data} Arraay={Courses} OObject={info} time={duration}/> */}
        {/* <FromValidation/> */}
       {/* <Props_Object userinfo={info}/> */}
+      {/* <Transfer info={data}/> */}
       
     </div>
   );
